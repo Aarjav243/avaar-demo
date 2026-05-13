@@ -11,6 +11,7 @@ export default function Hero() {
         autoPlay
         muted
         playsInline
+        className="hero-video"
         style={{
           position: 'absolute', inset: 0,
           width: '100%', height: '100%',
@@ -18,6 +19,15 @@ export default function Hero() {
           zIndex: 0,
         }}
       />
+
+      <style>{`
+        @media (max-width: 768px) and (orientation: portrait) {
+          .hero-video {
+            object-fit: contain;
+            background: #081A0F;
+          }
+        }
+      `}</style>
 
       {/* Bottom fade into next section */}
       <div style={{
