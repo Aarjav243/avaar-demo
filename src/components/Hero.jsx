@@ -1,4 +1,4 @@
-const BG = 'radial-gradient(ellipse at 50% 50%, #162A18 0%, #0D1E11 50%, #07100A 100%)'
+const BG = 'radial-gradient(ellipse at 50% 50%, #152018 0%, #0F1B13 50%, #080F0B 100%)'
 
 export default function Hero() {
   return (
