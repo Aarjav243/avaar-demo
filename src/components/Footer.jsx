@@ -1,5 +1,3 @@
-import AvaarLogo from './AvaarLogo'
-
 export default function Footer() {
   return (
     <footer style={{
@@ -21,7 +19,6 @@ export default function Footer() {
         }}>
           {/* Brand */}
           <div>
-            <AvaarLogo width={150} />
             <p style={{
               fontFamily: 'var(--font-body)',
               fontSize: '14px',
