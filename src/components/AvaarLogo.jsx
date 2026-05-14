@@ -1,6 +1,6 @@
 export default function AvaarLogo({ width = 400 }) {
   const gold = '#C9A452'
-  const bg   = '#0C2415'
+  const bg   = '#0F1F15'
   const cx   = 260   // icon centre x
   const base = 108   // text baseline y
   const fs   = 112   // font size — BIG like the original

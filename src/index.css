@@ -1,7 +1,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --forest:       #0C2415;
+  --forest:       #0F1F15;
   --forest-mid:   #163520;
   --forest-light: #1E4A2C;
   --forest-pale:  #254D30;
